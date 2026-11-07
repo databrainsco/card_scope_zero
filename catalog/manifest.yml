@@ -11,7 +11,7 @@ sourcecode:
   type: git
   location:
     origin: https://github.com/databrainsco/card_scope_zero.git
-    commit_sha: REPLACE_WITH_FULL_COMMIT_SHA
+    commit_sha: 2dfb5c12541e73a8a6a5e13dfa084b170ab657f7
 
 short_description: NFC/RFID identification and analysis tool
 description: "@README.md"
