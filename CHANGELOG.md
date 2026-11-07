@@ -1,12 +1,15 @@
 # Changelog
 
-## 0.1.0 — 2026-11-07
+See [changelog.md](changelog.md) for the Flipper Apps Catalog format.
 
-- Initial FAP for Flipper Zero Official firmware **1.5.1**
-- SceneManager / ViewDispatcher UI (official pattern)
-- Auto Detect with sequential NFC → 125 kHz RFID
-- NFC Analyzer via `NfcScanner` + `NfcPoller`
-- RFID Analyzer via `LFRFIDWorker` + `ProtocolDict`
+## v0.1
+
+- Initial CardScope Zero release for Flipper Zero Official firmware 1.5.1
+- Auto Detect with sequential NFC then 125 kHz RFID
+- NFC Analyzer via NfcScanner and NfcPoller
+- RFID Analyzer via LFRFIDWorker and ProtocolDict
 - Card Database capability matrix
 - Scan History with FlipperFormat persistence
-- Documentation: README, PROTOCOL_SUPPORT, TESTING
+- Cat reading IconAnimation on the scan screen
+- English UI following official SceneManager patterns
+- Catalog screenshots, MIT license, and submission checklist

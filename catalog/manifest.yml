@@ -1,0 +1,23 @@
+## Flipper Apps Catalog manifest (draft)
+## Submit a PR to flipperdevices/flipper-application-catalog at:
+##   applications/NFC/cardscope_zero/manifest.yml
+##
+## Before opening the PR:
+## 1. Commit/push all source files in this repo
+## 2. Replace commit_sha below with the latest full SHA
+## 3. Validate with flipper-application-catalog tools/bundle.py
+
+sourcecode:
+  type: git
+  location:
+    origin: https://github.com/databrainsco/card_scope_zero.git
+    commit_sha: REPLACE_WITH_FULL_COMMIT_SHA
+
+short_description: NFC/RFID identification and analysis tool
+description: "@README.md"
+changelog: "@docs/changelog.md"
+screenshots:
+  - screenshots/ss0.png
+  - screenshots/ss1.png
+  - screenshots/ss2.png
+  - screenshots/ss3.png

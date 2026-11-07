@@ -77,11 +77,27 @@ Or copy `dist/cardscope_zero.fap` to `apps/NFC/` on the SD card.
 4. Review result → **Details** / **Save** / **Rescan**
 5. Back cancels an active scan and stops radio workers
 
+## Screenshots
+
+Catalog screenshots (qFlipper format, 512×256):
+
+| Preview | Screen |
+|---|---|
+| ![Main menu](screenshots/ss0.png) | Main menu |
+| ![Scan](screenshots/ss1.png) | Card Detector + cat animation |
+| ![Result](screenshots/ss2.png) | Card detected |
+| ![About](screenshots/ss3.png) | About |
+
 ## Documentation
 
 - [PROTOCOL_SUPPORT.md](PROTOCOL_SUPPORT.md) — supported protocols and capability matrix
 - [TESTING.md](TESTING.md) — build checks and hardware validation status
-- [CHANGELOG.md](CHANGELOG.md) — version history
+- [changelog.md](changelog.md) — version history (Apps Catalog format)
+- [CATALOG.md](CATALOG.md) — Flipper Apps Catalog readiness checklist
+
+## Flipper Apps Catalog
+
+This repository is prepared for submission to the official Flipper Apps Catalog (`applications/NFC/cardscope_zero`). See [CATALOG.md](CATALOG.md) and the draft [`catalog/manifest.yml`](catalog/manifest.yml).
 
 ## Limitations
 
