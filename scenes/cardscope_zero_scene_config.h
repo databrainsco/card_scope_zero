@@ -1,0 +1,8 @@
+ADD_SCENE(cardscope_zero, main_menu, MainMenu)
+ADD_SCENE(cardscope_zero, scan, Scan)
+ADD_SCENE(cardscope_zero, result, Result)
+ADD_SCENE(cardscope_zero, details, Details)
+ADD_SCENE(cardscope_zero, database, Database)
+ADD_SCENE(cardscope_zero, history, History)
+ADD_SCENE(cardscope_zero, history_detail, HistoryDetail)
+ADD_SCENE(cardscope_zero, about, About)

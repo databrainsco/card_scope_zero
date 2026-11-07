@@ -1,0 +1,15 @@
+App(
+    appid="cardscope_zero",
+    name="CardScope Zero",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="cardscope_zero_app",
+    stack_size=5 * 1024,
+    fap_version="0.1",
+    fap_icon="cardscope_zero_10px.png",
+    fap_icon_assets="images",
+    fap_category="NFC",
+    fap_description="NFC/RFID identification and analysis tool",
+    fap_author="CardScope Zero",
+    fap_weburl="https://github.com/databrainsco/card_scope_zero",
+    requires=["gui", "storage"],
+)
